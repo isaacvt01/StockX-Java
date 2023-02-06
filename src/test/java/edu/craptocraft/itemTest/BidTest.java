@@ -19,9 +19,9 @@ public class BidTest {
     }
     @Test
     public void compareToTest(){
-        Ask bidBaja = new Bid("55", 450);
-        Ask bidAlta = new Bid("33", 1500);
-        Ask bidIgual = new Bid("44", 900);
+        Bid bidBaja = new Bid("55", 450);
+        Bid bidAlta = new Bid("33", 1500);
+        Bid bidIgual = new Bid("44", 900);
         Assert.assertEquals(1, bid.compareTo(bidBaja));
         Assert.assertEquals(-1, bid.compareTo(bidAlta));
         Assert.assertEquals(0, bid.compareTo(bidIgual));
