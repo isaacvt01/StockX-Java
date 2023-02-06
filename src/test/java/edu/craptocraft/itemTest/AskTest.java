@@ -6,7 +6,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class AskTest {
-    Ask ask;
+    static Ask ask;
     @BeforeClass
     public static void inicializar(){
         ask = new Ask("37", 900);
@@ -19,7 +19,11 @@ public class AskTest {
     @Test
     public void compareToTest(){
         Ask askBaja = new Ask("55", 450);
-        Assert.assertEquals(0, ask.compareTo(askBaja));
+        Ask askAlta = new Ask("33", 1500);
+        Ask askIgual = new Ask("44", 900);
+        Assert.assertEquals(1, ask.compareTo(askBaja));
+        Assert.assertEquals(-1, ask.compareTo(askAlta));
+        Assert.assertEquals(0, ask.compareTo(askIgual));
     }
     @Test
     public void toStringTest(){

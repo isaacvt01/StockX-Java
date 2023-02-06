@@ -1,0 +1,5 @@
+edu\craptocraft\AppTest.class
+edu\craptocraft\itemTest\BidTest.class
+edu\craptocraft\itemTest\AskTest.class
+edu\craptocraft\itemTest\SaleTest.class
+edu\craptocraft\itemTest\SneakerTest.class
