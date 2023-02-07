@@ -37,4 +37,10 @@ public class SneakerTest {
         Assert.assertEquals(ofertas.get(1).getClass(), ask.getClass());
         Assert.assertEquals(ofertas.get(2).getClass(), sale.getClass());
     }
+    @Test
+    public void toStringTest(){
+        String esperado = "Jordan 1 Retro High Dark Mocha\n\t\t\t555088-105";
+        String actual = sneaker.toString();
+        Assert.assertEquals(esperado, actual);
+    }
 }
