@@ -56,4 +56,10 @@ public class Sneaker implements Item{
     public void setBid(int bid) {
         this.bid = bid;
     }
+    @Override
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.name).append("\n\t\t\t").append(this.style);
+        return sb.toString();
+    }
 }
