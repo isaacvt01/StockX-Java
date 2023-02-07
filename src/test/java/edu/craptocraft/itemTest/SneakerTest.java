@@ -1,9 +1,11 @@
 package edu.craptocraft.itemTest;
 
-import edu.craptocraft.item.Sneaker;
+import edu.craptocraft.item.*;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import java.util.List;
 
 public class SneakerTest {
     static Sneaker sneaker;
@@ -20,5 +22,19 @@ public class SneakerTest {
         String esperadoName = "Jordan 1 Retro High Dark Mocha";
         String devueltoName = sneaker.getName();
         Assert.assertEquals(esperadoName, devueltoName);
+    }
+    @Test
+    public void addTest(){
+        Offer bid = new Bid("33", 4);
+        Offer ask = new Ask("34", 6);
+        Offer sale = new Sale("88", 9);
+
+        sneaker.add(bid);
+        sneaker.add(ask);
+        sneaker.add(sale);
+        List<Offer> ofertas = sneaker.offers();
+        Assert.assertEquals(ofertas.get(0).getClass(), bid.getClass());
+        Assert.assertEquals(ofertas.get(1).getClass(), ask.getClass());
+        Assert.assertEquals(ofertas.get(2).getClass(), sale.getClass());
     }
 }
