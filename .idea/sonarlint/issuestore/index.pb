@@ -1,6 +1,4 @@
 
-\
-,src/main/java/edu/craptocraft/item/Item.java,0\f\0f01f650989f0d3d4bec7ad1890802a6ce8d99da
 d
 4src/main/java/edu/craptocraft/criteria/Criteria.java,a\7\a732240ddd09751f75b4877d4ee54dcc47bea8fb
 ]
