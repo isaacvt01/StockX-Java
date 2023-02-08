@@ -24,7 +24,7 @@ public class Sale implements Offer {
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append("\t\t").append(this.size).append("\t").append(this.price).append("\n");
+        sb.append("\t\t").append(this.size).append("\t\t").append(this.price).append("\n");
         return sb.toString();
     }
 }

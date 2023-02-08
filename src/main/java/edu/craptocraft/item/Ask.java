@@ -24,7 +24,7 @@ public class Ask implements Offer{
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append("\t\t").append(this.size).append("\t").append(this.ask).append("\n");
+        sb.append("\t\t").append(this.size).append("\t\t").append(this.ask).append("\n");
         return sb.toString();
     }
 }

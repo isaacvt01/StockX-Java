@@ -23,7 +23,7 @@ public class Bid implements Offer{
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append("\t\t").append(this.size).append("\t").append(this.bid).append("\n");
+        sb.append("\t\t").append(this.size).append("\t\t").append(this.bid).append("\n");
         return sb.toString();
     }
 }
