@@ -28,7 +28,7 @@ public class AskTest {
     @Test
     public void toStringTest(){
         String actual = ask.toString();
-        String esperado = "\t\t37\t900\n";
+        String esperado = "\t\t37\t\t900\n";
         Assert.assertEquals(esperado, actual);
     }
 

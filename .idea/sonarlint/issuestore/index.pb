@@ -1,9 +1,21 @@
 
-c
-3src/test/java/edu/craptocraft/itemTest/BidTest.java,1\e\1e27a8dd0e3f4d80daefb7c3663c7a5f329a509c
-c
-3src/test/java/edu/craptocraft/itemTest/AskTest.java,e\7\e7f69dde584e00daafc45fcd7381d0afdef7e3da
-d
-4src/test/java/edu/craptocraft/itemTest/SaleTest.java,d\2\d2f2a7e4e54d51b43f0558baf493ec91dbf57763
 g
 7src/test/java/edu/craptocraft/itemTest/SneakerTest.java,9\a\9a683c0232036cda6933ad7eecea8b3fd39e3a5c
+d
+4src/main/java/edu/craptocraft/criteria/Criteria.java,a\7\a732240ddd09751f75b4877d4ee54dcc47bea8fb
+`
+0src/main/java/edu/craptocraft/criteria/Asks.java,0\4\045d69722ae99db52dae08618106526d5122eb3b
+\
+,src/main/java/edu/craptocraft/item/Item.java,0\f\0f01f650989f0d3d4bec7ad1890802a6ce8d99da
+a
+1src/main/java/edu/craptocraft/criteria/Sales.java,4\2\4232f0961611c98d26e5133e5adca4c7e4149920
+d
+4src/main/java/edu/craptocraft/criteria/LastSale.java,9\1\91c9b21d350fd2f6bfc5e7e858d67f4871165073
+b
+2src/main/java/edu/craptocraft/criteria/MinAsk.java,6\5\6546bcb7d4aa5816646c4a839906f8b43140077b
+]
+-src/main/java/edu/craptocraft/item/Offer.java,7\3\7305c0b0bde4a8693def438d0cd03e5b27711758
+_
+/src/main/java/edu/craptocraft/item/Sneaker.java,2\0\207fb3c7861b0d033ad6ad9e134c7b056ce50414
+`
+0src/main/java/edu/craptocraft/criteria/Bids.java,8\1\8166a388ff7a045bf35c1ccc88a4b66ae1199195

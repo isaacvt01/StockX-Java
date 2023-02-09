@@ -1,0 +1,9 @@
+
+ž
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§¤”ó8Õç€†ã0
+9
+java:S1116"Remove this empty statement.(§¤”ó8Úç€†ã0
+d
+java:S1612"BReplace this lambda with method reference 'Bid.class::isInstance'.(ôûÈÚþÿÿÿÿ8Þç€†ã0
+Y
+java:S1612"<Replace this lambda with method reference 'Bid.class::cast'.(Öœš‘8áç€†ã0

@@ -1,0 +1,7 @@
+
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®·Ò
+^
+java:S1612"CReplace this lambda with method reference 'Sale.class::isInstance'.(©ëôøûÿÿÿÿ
+S
+java:S1612"=Replace this lambda with method reference 'Sale.class::cast'.(ËðþÈ

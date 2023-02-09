@@ -29,7 +29,7 @@ public class BidTest {
     @Test
     public void toStringTest(){
         String actual = bid.toString();
-        String esperado = "\t\t37\t900\n";
+        String esperado = "\t\t37\t\t900\n";
         Assert.assertEquals(esperado, actual);
     }
 }
