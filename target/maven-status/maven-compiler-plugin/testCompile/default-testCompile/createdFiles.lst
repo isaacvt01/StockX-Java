@@ -1,5 +1,15 @@
-edu\craptocraft\AppTest.class
-edu\craptocraft\itemTest\BidTest.class
+edu\craptocraft\criteriaTest\BidsTest.class
 edu\craptocraft\itemTest\AskTest.class
 edu\craptocraft\itemTest\SaleTest.class
+edu\craptocraft\criteriaTest\MinAskTest.class
 edu\craptocraft\itemTest\SneakerTest.class
+edu\craptocraft\criteriaTest\SizeTest.class
+edu\craptocraft\AppTest.class
+edu\craptocraft\criteriaTest\MaxTest.class
+edu\craptocraft\criteriaTest\LastSaleTest.class
+edu\craptocraft\criteriaTest\SalesTest.class
+edu\craptocraft\criteriaTest\AndCriteriaTest.class
+edu\craptocraft\itemTest\BidTest.class
+edu\craptocraft\criteriaTest\AsksTest.class
+edu\craptocraft\criteriaTest\MaxBidTest.class
+edu\craptocraft\criteriaTest\MinTest.class

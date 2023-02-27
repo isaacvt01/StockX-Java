@@ -6,7 +6,6 @@ import edu.craptocraft.item.Sale;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 public class LastSale implements Criteria{
     public LastSale() {}

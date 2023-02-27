@@ -24,4 +24,5 @@ public class Max implements Criteria {
                 .max(Offer::compareTo);
        return finalCriteria.isPresent()?List.of(finalCriteria.get()):List.of();
     }
+
 }
