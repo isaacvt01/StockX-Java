@@ -24,8 +24,10 @@ Las herramientas que nos dio David Gelpi fueron:
 
 Como ya se mencionó anteriormente, el propósito del examen es crear un programa que te permita filtrar por diferentes criterios una zapatilla.
 
+Como también reforzar lo siguiente:
+
 - TDD
-- Agilizar el uso de streams
+- Streams
 - SOLID
 - Interfaces
 - Polimorfismo
