@@ -2,7 +2,7 @@
 
 Este es un examen de grado superior DUAL de desarrollo web.
 
-En este examen debíamos implementar algo parecido a StockX, que es una web real.
+En este examen debíamos implementar algo parecido a [StockX](https://stockx.com/es-es), que es una web real.
 
 StockX es una web de compra-venta donde se subastan todo tipo de artículos. 
 
